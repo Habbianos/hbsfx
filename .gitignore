@@ -1,3 +1,9 @@
+public
+# /docs/*/
+# /docs/_navbar.md
+# /docs/_sidebar.md
+data.json
+
 # Logs
 logs
 *.log

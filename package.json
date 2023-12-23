@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@jankuss/shroom": "^0.7.2"
+  },
+  "name": "hbsfx",
+  "description": "",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.mjs",
+    "clear": "rm -rf docs/hhbr docs/hhus docs/_navbar.md docs/_sidebar.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
