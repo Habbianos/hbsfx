@@ -11,15 +11,16 @@
 <body>
   <div id="app"></div>
   <script>
+    const basePath = 'hbsfx/'
     window.$docsify = {
-      basePath: '/hbsfx/',
+      basePath: basePath,
       name: 'HABBO SFX',
       repo: 'Alynva/hbsfx',
       loadSidebar: true,
       loadNavbar: true,
     }
-    if (window.location.pathname !== '/hbsfx/' || window.location.hash === '') {
-      window.location.href = '/#/hhbr/';
+    if (window.location.pathname !== basePath || window.location.hash === '') {
+      window.location.href = basePath+'#/hhbr/';
     }
     </script>
   <!-- Docsify v4 -->
